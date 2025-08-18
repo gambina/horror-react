@@ -17,7 +17,7 @@ export default function Header() {
   return (
     <header>
       <img src={reactIcon} />
-      <h1>Daddy Cook</h1>
+      <h1>Spooky Stories</h1>
       {array.map((item, index) => (
         < p key={index}> {item}</p>
       ))}
