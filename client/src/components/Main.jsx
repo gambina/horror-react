@@ -9,12 +9,6 @@ export default function Main() {
   const [stories, setStories] = React.useState([]);
 
   // Fetch titles
-  useEffect(() => {
-    fetch("http://localhost:8000/api/titles")
-      .then((res) => res.json())
-      .then((data) => setTitles(data))
-      .catch((err) => console.error("Error fetching titles:", err));
-  }, []);
 
   // Fetch stories
   useEffect(() => {
@@ -25,18 +19,16 @@ export default function Main() {
   }, []);
   return (
 
+
+
     <main>
       <div className="story-container">
-        <div className="story">
-          <h2 className="story-title">{titles[0]}</h2>
-          <p>{stories[0]}
-          </p> </div>
-        <div className="story">
-          <h2 className="story-title">{titles[1]}</h2>
-          <p>
-            {stories[1]}
-          </p>
-        </div>
+        {stories.map((story, index) => (
+          <div className="story" key={index}>
+            <h2 className="story-title">{story.title}</h2>
+            <p>{story.content}</p>
+          </div>
+        ))}
       </div>
 
     </main>

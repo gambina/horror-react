@@ -1,5 +1,5 @@
 import React from "react"
-import reactIcon from "../assets/react.svg"
+import skull from "../assets/skull.png"
 import axios from 'axios'
 import { useEffect } from "react"
 
@@ -16,7 +16,7 @@ export default function Header() {
   }, [])
   return (
     <header>
-      <img src={reactIcon} />
+      <img src={skull} />
       <h1>Spooky Stories</h1>
       {array.map((item, index) => (
         < p key={index}> {item}</p>

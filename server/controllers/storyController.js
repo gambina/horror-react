@@ -1,28 +1,13 @@
 import { getDBConnection } from '../db/db.js'
 
-export async function getTitles(req, res) {
-  try {
-    const db = await getDBConnection()
-    const queryData = await db.all('SELECT title FROM stories ORDER BY id desc')
-    const titles = queryData.map(item => item.title)
-    res.status(200).json(titles)
-
-  }
-  catch (err) {
-    res.status(500).json({ error: 'Failed to fetch stories', details: err.message })
-  }
-}
-
 export async function getStories(req, res) {
   try {
-    const db = await getDBConnection()
-    const queryData = await db.all('SELECT content FROM stories ORDER BY id desc')
-    const stories = queryData.map(item => item.content)
-    res.status(200).json(stories)
+    const db = await getDBConnection();
+    const queryData = await db.all("SELECT title, content FROM stories ORDER BY id DESC");
 
-  }
-  catch (err) {
-    res.status(500).json({ error: 'Failed to fetch stories', details: err.message })
+    res.status(200).json(queryData);
+  } catch (err) {
+    res.status(500).json({ error: "Failed to fetch stories", details: err.message });
   }
 }
 
