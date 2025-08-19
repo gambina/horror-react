@@ -1,103 +1,57 @@
 export const story = [
   {
     title: 'You’re Here to Save Lives… But the Hospital Wants Yours',
-    content: `
-    The tires of Dr. Greta Lang’s car crunched over the gravel road, the sound swallowed by the heavy silence pressing from the overcast sky. The hospital loomed ahead, its jagged silhouette twisting subtly when viewed from the corner of her eye. Vines and dark moss clung to the gray stone, an eerie relic of a forgotten era. She tightened her grip on the steering wheel, her knuckles pale as bone.
-
-As she stepped out, the air hit her — a damp, metallic chill clinging to her skin. A faint scent of antiseptic drifted from the entrance, undercut by something else. Rotting.
-
-Inside, fluorescent lights buzzed weakly, casting a sickly glow over peeling wallpaper. The receptionist barely looked up. His eyes flicked past her, as if expecting someone else.
-
-“Dr. Calloway is waiting in the Central Ward,” he said. “Turn right, then left. And… I’d avoid the mirrored corridor.”
-
-Greta frowned. “Why?”
-
-He didn’t answer.
-
-The hallways stretched unnervingly long, walls lined with tarnished mirrors. Greta hesitated, catching a glimpse of her reflection. Something about it felt… delayed. When she turned her head fully, the mirrors reflected only what they should. A trick of the light, surely. She quickened her pace.
-
-The Central Ward was vast, thick with the hum of machines and muttered whispers. Greta’s eyes landed on a young woman — Karina. Barely twenty, her pale skin marred by intricate spiraling scars beneath bandages.
-
-“She’s been like this since she arrived,” said Nurse Lena Torres. “She mutters about a house, about fire. The spirals appear when she speaks of it.”
-
-Greta traced the edge of one spiral with gloved fingers. The raised flesh was too perfect, too deliberate — like something etched from within. Karina stirred, lips trembling.
-
-“…the walls… the fire… left me there…”
-
-A chill crawled up Greta’s spine. She pulled back quickly, masking her unease. “She needs to be transferred to the Experimental Wing. We need to suppress the memory trigger.”
-
-Lena’s gaze darkened. “Are you sure that’s wise?”
-
-“I’m here to find answers.”
-
-And she would. No matter the cost.
-
-The Experimental Wing was colder than expected, its sterile walls bearing faint spirals she hadn’t noticed before. She brushed her fingers over one absentmindedly and shuddered. *Irrational.*
-
-Her small office was cluttered with patient files, but her mind returned to Karina’s words. *The house. The fire.* Greta’s own memories wavered in response — childhood glimpses of smoke, heat, a scream echoing too clearly.
-
-A knock jolted her. Lena stood in the doorway, tense. “Karina’s awake. She’s asking for you.”
-
-Greta followed her into the ward. Karina sat upright, her gaze sharp. Too knowing.
-
-“You’re the doctor,” she whispered. “Are you here to take it away?”
-
-Greta hesitated. “Take what away?”
-
-Karina’s fingers clawed at the sheets. “The house. The walls. It won’t let me go.”
-
-Greta leaned closer. “Describe the house. What do you see?”
-
-Karina gasped. Her body stiffened, eyes rolling back. The spirals on her arms darkened, glowing faintly.
-
-Then she whispered, “It’s inside you too.”
-
-The monitors shrieked. Karina convulsed. Lena shouted for help, but Greta barely heard her over the sudden rush of whispers — *not from Karina, but from the walls.*
-
-Later, in her office, Greta traced the patterns in Karina’s scans. The spirals weren’t random. They were structured. *Language.*
-
-A knock startled her. She turned — but the doorway was empty.
-
-Then the lights flickered, and in the mirror across the room, her reflection didn’t move.
-
-Her breath stalled. Slowly, she stepped closer. The mirrored version of herself remained frozen, its face expressionless. *Wrong.*
-
-The whispers in the walls grew louder.
-
-Then, her reflection smiled.
-
-Not a normal smile. Too wide. Too knowing. The spirals on its skin pulsed, shifting and growing like living scars. Greta stumbled back, crashing into her desk. When she looked again, her reflection was normal. Haggard, exhausted. Herself.
-
-But the whispers didn’t stop.
-
-She yanked up her sleeve. There, on her forearm, the first traces of a spiral had begun to emerge.
-
-The realization slammed into her.
-
-The hospital wasn’t studying the spirals.
-
-The hospital was making them.
-
-The next morning, Greta confronted Dr. Calloway. “You knew.”
-
-He sighed. “The body remembers, Dr. Lang. Trauma leaves imprints — on flesh, on walls, on places like this.”
-
-Greta shook her head. “That doesn’t explain why *I* have them.”
-
-Calloway’s gaze darkened. “Because the hospital chose you.”
-
-The walls pulsed faintly.
-
-The spirals beneath her skin burned.
-
-And Greta realized, with horrifying certainty, that she was never meant to leave.
+    content: `The tires of Dr. Greta Lang’s car crunched over the gravel road, the sound swallowed by the heavy silence pressing from the overcast sky. The hospital loomed ahead, its jagged silhouette twisting subtly when viewed from the corner of her eye. Vines and dark moss clung to the gray stone, an eerie relic of a forgotten era. She tightened her grip on the steering wheel, her knuckles pale as bone.\n\n
+As she stepped out, the air hit her — a damp, metallic chill clinging to her skin. A faint scent of antiseptic drifted from the entrance, undercut by something else. Rotting.\n\n
+Inside, fluorescent lights buzzed weakly, casting a sickly glow over peeling wallpaper. The receptionist barely looked up. His eyes flicked past her, as if expecting someone else.\n\n
+“Dr. Calloway is waiting in the Central Ward,” he said. “Turn right, then left. And… I’d avoid the mirrored corridor.”\n\n
+Greta frowned. “Why?”\n\n
+He didn’t answer.\n\n
+The hallways stretched unnervingly long, walls lined with tarnished mirrors. Greta hesitated, catching a glimpse of her reflection. Something about it felt… delayed. When she turned her head fully, the mirrors reflected only what they should. A trick of the light, surely. She quickened her pace.\n\n
+The Central Ward was vast, thick with the hum of machines and muttered whispers. Greta’s eyes landed on a young woman — Karina. Barely twenty, her pale skin marred by intricate spiraling scars beneath bandages.\n\n
+“She’s been like this since she arrived,” said Nurse Lena Torres. “She mutters about a house, about fire. The spirals appear when she speaks of it.”\n\n
+Greta traced the edge of one spiral with gloved fingers. The raised flesh was too perfect, too deliberate — like something etched from within. Karina stirred, lips trembling.\n\n
+“…the walls… the fire… left me there…”\n\n
+A chill crawled up Greta’s spine. She pulled back quickly, masking her unease. “She needs to be transferred to the Experimental Wing. We need to suppress the memory trigger.”\n\n
+Lena’s gaze darkened. “Are you sure that’s wise?”\n\n
+“I’m here to find answers.”\n\n
+And she would. No matter the cost.\n\n
+The Experimental Wing was colder than expected, its sterile walls bearing faint spirals she hadn’t noticed before. She brushed her fingers over one absentmindedly and shuddered. *Irrational.*\n\n
+Her small office was cluttered with patient files, but her mind returned to Karina’s words. *The house. The fire.* Greta’s own memories wavered in response — childhood glimpses of smoke, heat, a scream echoing too clearly.\n\n
+A knock jolted her. Lena stood in the doorway, tense. “Karina’s awake. She’s asking for you.”\n\n
+Greta followed her into the ward. Karina sat upright, her gaze sharp. Too knowing.\n\n
+“You’re the doctor,” she whispered. “Are you here to take it away?”\n\n
+Greta hesitated. “Take what away?”\n\n
+Karina’s fingers clawed at the sheets. “The house. The walls. It won’t let me go.”\n\n
+Greta leaned closer. “Describe the house. What do you see?”\n\n
+Karina gasped. Her body stiffened, eyes rolling back. The spirals on her arms darkened, glowing faintly.\n\n
+Then she whispered, “It’s inside you too.”\n\n
+The monitors shrieked. Karina convulsed. Lena shouted for help, but Greta barely heard her over the sudden rush of whispers — *not from Karina, but from the walls.*\n\n
+Later, in her office, Greta traced the patterns in Karina’s scans. The spirals weren’t random. They were structured. *Language.*\n\n
+A knock startled her. She turned — but the doorway was empty.\n\n
+Then the lights flickered, and in the mirror across the room, her reflection didn’t move.\n\n
+Her breath stalled. Slowly, she stepped closer. The mirrored version of herself remained frozen, its face expressionless. *Wrong.*\n\n
+The whispers in the walls grew louder.\n\n
+Then, her reflection smiled.\n\n
+Not a normal smile. Too wide. Too knowing. The spirals on its skin pulsed, shifting and growing like living scars. Greta stumbled back, crashing into her desk. When she looked again, her reflection was normal. Haggard, exhausted. Herself.\n\n
+But the whispers didn’t stop.\n\n
+She yanked up her sleeve. There, on her forearm, the first traces of a spiral had begun to emerge.\n\n
+The realization slammed into her.\n\n
+The hospital wasn’t studying the spirals.\n\n
+The hospital was making them.\n\n
+The next morning, Greta confronted Dr. Calloway. “You knew.”\n\n
+He sighed. “The body remembers, Dr. Lang. Trauma leaves imprints — on flesh, on walls, on places like this.”\n\n
+Greta shook her head. “That doesn’t explain why *I* have them.”\n\n
+Calloway’s gaze darkened. “Because the hospital chose you.”\n\n
+The walls pulsed faintly.\n\n
+The spirals beneath her skin burned.\n\n
+And Greta realized, with horrifying certainty, that she was never meant to leave.\n\n
     
     `
   },
   {
     title: 'Every Time You Sleep… Reality Shifts',
-    content: `
-    The coffee mug in Eliza’s hand felt wrong. Not just different — wrong. The deep crimson glaze, the faint chip on the rim — it had been hers for years. But now, the color seemed off, too saturated, too perfect. She blinked. The mug was green.
+    content: `The coffee mug in Eliza’s hand felt wrong. Not just different — wrong. The deep crimson glaze, the faint chip on the rim — it had been hers for years. But now, the color seemed off, too saturated, too perfect. She blinked. The mug was green.
 
 Her breath caught in her throat. She blinked again, harder. Red.
 

@@ -5,7 +5,6 @@ import { useEffect } from "react"
 import Story from "./Story"
 
 export default function Main() {
-  const [titles, setTitles] = React.useState([]);
   const [stories, setStories] = React.useState([]);
 
   // Fetch titles
