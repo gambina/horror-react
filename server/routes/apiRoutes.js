@@ -1,9 +1,7 @@
 import express from 'express'
+import { getTitles, getStories } from '../controllers/storyController.js'
 
-import { getAllData } from '../controllers/getAllData.js'
-import { getDataByPathParams } from '../controllers/getDataByPathParams.js'
+export const storiesRouter = express.Router()
 
-export const apiRouter = express.Router()
-
-apiRouter.get('/', getAllData)
-apiRouter.get('/:field/:term', getDataByPathParams)
+storiesRouter.get('/titles', getTitles)
+storiesRouter.get('/stories', getStories)

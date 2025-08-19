@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+import { storiesRouter } from './routes/apiRoutes.js'
 
 
 
@@ -10,9 +11,12 @@ const corsOptions = { origin: ["http://localhost:5173"] }
 
 app.use(cors(corsOptions))
 
-app.get("/api", (req, res) => {
+/* app.get("/api", (req, res) => {
   res.status(200).json({ stuff: ['lahmacun', 'balik', 'etli ekmek'] })
 })
+
+ */
+app.use('/api', storiesRouter)
 
 app.use((req, res) => {
   res.status(404).json({ message: 'Endpoint not found' })
