@@ -1,6 +1,7 @@
 import React from "react"
 import skull from "../assets/skull.png"
 import axios from 'axios'
+import magnifier from "../assets/magnifier.png"
 import { useEffect } from "react"
 
 export default function Header() {
@@ -18,9 +19,16 @@ export default function Header() {
     <header>
       <img src={skull} />
       <h1>Spooky Stories</h1>
-      {array.map((item, index) => (
+      {/* {array.map((item, index) => (
         < p key={index}> {item}</p>
-      ))}
+      ))} */}
+      <form role="search" className="form">
+        <div class="search-box">
+          <label for="search-input" class="visually-hidden"></label>
+          <input type="text" placeholder="Search..." className="search-input" />
+          <img src={magnifier} alt="" className="magnifier" />
+        </div>
+      </form>
     </header >
   )
 }

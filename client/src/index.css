@@ -1,3 +1,30 @@
+:root {
+  /* Colors */
+  --color-bg: #121212;
+  --color-bg-light: #1A1A1A;
+  --color-accent: #ff4c7b;
+  --color-text: #1A1A1A;
+  --color-input-bg: aliceblue;
+  --color-placeholder: 1A1A1A;
+  --color-bg-lightest: #333;
+
+  /* Font */
+  --font-base: 'Poppins';
+  --font-heading: 'Plaster', sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.3rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+
+  /* Border Radius */
+  --radius-sm: 3px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+}
+
+
 * {
   box-sizing: border-box;
 }
@@ -80,4 +107,46 @@ header>h1 {
 
 .story p {
   white-space: pre-wrap;
+}
+
+.search-input {
+  width: 300px;
+  height: 30px;
+  border-color: black;
+  margin-left: var(--space-md);
+  padding: var(--space-sm);
+  border: none;
+  border-radius: var(--radius-md);
+  background-color: var(--color-input-bg);
+  color: #1A1A1A;
+
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.form .search-box {
+  position: relative;
+  display: inline-block;
+}
+
+.form .search-box input {
+  padding-right: 35px;
+  height: 35px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.magnifier {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
